@@ -17,6 +17,7 @@ app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: false, }));
 app.use(cookieParser());
 app.use(fileUpload({useTempFiles: true}));
+
 useTempFiles:true
 // use handlebars as view engine
 const handlebars = exphbs.create({ extname: ".hbs",
@@ -31,6 +32,7 @@ calcTotal: (arr) => {
         let totGold = 0;
         arr.forEach(swimmers => totGold += parseFloat(swimmers.gold_medals)); 
         return totGold;
+  
 },
 
 
