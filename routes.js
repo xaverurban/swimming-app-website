@@ -28,7 +28,7 @@ router.get('/dashboard/deleteswimmingteam/:id', dashboard.removeSwimmingTeam);
 
 router.post('/swimmingTeam/:id/addswimmer', swimmingTeam.addSwimmer); //may be wrong?
 router.post('/dashboard/addswimmingteam', dashboard.addSwimmingTeam);
-
+router.post("/about/add-comment", about.addComment);
 // connect routes to controllers
 router.get('/', accounts.index);
 router.get('/login', accounts.login);

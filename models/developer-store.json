@@ -7,7 +7,8 @@
       "joined":2016,
       "job":"Web Developer",
       "city":"Boston",
-      "mates":35
+      "mates":35,
+      "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5896.39736485624!2d-71.05442154811976!3d42.35960486713966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e371e8bd4d6fd9%3A0x23b3a10d0eb8dada!2sThe%20Dubliner%20Irish%20Pub!5e0!3m2!1sen!2sie!4v1682873151293!5m2!1sen!2sie"
     },
     {
       "name":"Rock",
@@ -16,7 +17,8 @@
       "joined":2013,
       "job":"Art Director",
       "city":"New York",
-      "mates":22
+      "mates":22,
+      "mapUrl":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24211.62653702036!2d-73.95745909856936!3d40.66397972236557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sie!4v1682873791888!5m2!1sen!2sie"
     },
     {
       "name":"Cat 2",
@@ -25,7 +27,8 @@
       "joined":2015,
       "job":"Research Assistant",
       "city":"New York",
-      "mates":26
+      "mates":26,
+      "mapUrl":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96719.40715776588!2d-73.9217850999159!3d40.751433914637246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sie!4v1682873931171!5m2!1sen!2sie"
     }
   ]
 }
