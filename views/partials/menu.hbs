@@ -1,0 +1,24 @@
+<nav class="ui menu">
+  <header class="ui header item"> <a href="/"> Swimming Team App</a></header>
+  <div class="right menu">
+    <a id="dashboard" class="item" href="/dashboard"> Dashboard </a>
+    <a id="about" class="item" href="/about"> About</a>
+    <a id="gallery" class="item" href="/gallery"> Gallery</a>
+     <a id="logout" class="item" href="/logout"> Logout </a>
+    <div class="ui simple dropdown item">
+      <span class="name">{{fullname}}</span>
+      <span class="profilepic"><img src="{{picture}}" class="ui avatar image"></span>
+
+      <i class="dropdown icon"></i>
+      <div class="menu">
+        <a class="item" href="/blog">Blog</a>
+        <a class="item" href="/contact">Contact</a>
+      
+      </div>
+    </div>
+    <button class="ui button icon toggle">
+      <i class="bars icon"></i>
+    </button>
+  </div>
+</nav>
+

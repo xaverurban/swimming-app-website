@@ -1,0 +1,117 @@
+{{> menu}}
+
+<section class="ui two column grid segment">
+ <div class="ui container">
+    <div class="ui one column grid">
+      <div class="column">
+        <div class="main-container">
+          <h2 class="ui header header-text">Welcome to the Swimming Team App, {{fullname}}!</h2>
+<p id="introText" class="header-text">
+In this app, users can effortlessly add swimmers to their desired collections, 
+  which are currently organized by country. The app allows for seamless removal of individual swimmers or entire collections as needed. 
+  Each swimmer's profile can include their name, the events they participate in, and the number of Olympic medals they've won.</p>
+
+              <div class="buttons">
+        <button class="ui blue button" onclick="showHide()">
+          Read more <i class="arrow circle right icon"></i>
+        </button>
+        <button class="ui green button" onclick="alert('Thanks! You\'re okay too')">
+          Like it? <i class="thumbs up icon"></i>
+        </button>
+        <button class="ui red button" onclick="welcomeUser()">
+          Who are you? <i class="user icon"></i>
+        </button>
+      </div>
+
+          <div id="readmore" class="ui message">
+            <p>
+To begin, navigate to the "Dashboard" and initiate the process by creating a new collection. You'll be prompted to provide the collection's name and the country of origin for the swimmers. Once the collection is established, 
+              you can effortlessly add swimmers by clicking the folder icon beneath the collection name. 
+              If needed, the entire collection can be deleted by clicking the trash bin icon next to the folder icon. Enjoy curating your list of favorite swimmers!
+            </p>  
+          </div>
+          <div id="welcomeuser" class="ui message" onclick="hideWelcome()"> </div>
+        </div>
+      </div>
+      </div>
+  </div>
+  <div class="ui divider"></div>
+
+<h3 class="ui center aligned header">The Swimming App now contains:</h3>
+<div class="ui two statistics">
+    <div class="ui huge statistic">
+        <div class="value">
+            {{totalSwimmingTeams}}
+        </div>
+        <div class="label">
+            Swimming Teams
+        </div>
+    </div>
+    <div class="ui huge statistic">
+        <div class="value">
+            {{totalSwimmers}}
+        </div>
+        <div class="label">
+            Swimmers
+        </div>
+    </div>
+</div>
+
+<div class="ui centered grid">
+  <div class="four column row">
+    <div class="column">
+      <div class="ui card">
+        <div class="image">
+          <img src="https://resources.fina.org/photo-resources/2023/03/17/ecda3600-2d34-4ef8-bb0b-678012b41d4f/GettyImages-1052617742-1-.jpg?width=830">
+        </div>
+        <div class="content">
+          <div class="header">What’s coming during the Open Water Swimming World Cup in 2023</div>
+          <div class="description">Written by:
+Torin Koos, World Aquatics Communication Manager</div>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="ui card">
+        <div class="image">
+          <img src="https://resources.fina.org/photo-resources/2023/03/19/f560f0bd-5ae3-4fd2-823e-705799c14318/WAASWC2023-TEAM-ACRO-53-UKR.jpg?width=830">
+        </div>
+        <div class="content">
+          <div class="header">More surprising performances on final day of Artistic Swimming World Cup</div>
+          <div class="description">Written by:
+Maureen Croes, World Aquatics correspondent
+</div>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="ui card">
+        <div class="image">
+          <img src="https://resources.fina.org/photo-resources/2023/03/17/de7ec3c0-c110-4240-849d-27f1d414d8a4/WAASWC2023-W-SOLO-TECH-9-FEIDINA-UKR.jpg?width=830">
+        </div>
+        <div class="content">
+          <div class="header">Australia's Kaylee McKeown smashes 200m backstroke world record</div>
+          <div class="description">Written by:
+Torin Koos, World Aquatics Communication Manager</div>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="ui card">
+        <div class="image">
+          <img src="https://resources.fina.org/photo-resources/2023/02/21/8cc339e5-1bab-4ad8-86bc-257616407c00/FINA-World-Championships-Budapest-2022-Day-11-DIVING-MEN-SYNC-10M-PLATFORM-102060_LargeImage_m14391.jpg?width=830">
+        </div>
+        <div class="content">
+          <div class="header">World Aquatics Diving World Cup 2023 calendar unveiled</div>
+          <div class="description">Written by:
+Torin Koos, World Aquatics Communication Manager</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+</section>
+
+

@@ -1,0 +1,50 @@
+
+{{#unless swimmingTeam.swimmers}}
+
+  <h3 class="ui center aligned message">Start adding swimmers!</h3>
+{{else}}
+
+<table class="ui fixed striped table">
+  <thead>
+    <tr>
+      <th>Swimming Team</th>
+      <th>Event</th>
+      <th>Gold Medals</th>
+    
+    </tr>
+  </thead>
+  <tbody>
+    {{#each swimmingTeam.swimmers}}
+      <tr>
+        <td>
+          {{name}}
+        </td>
+        <td>
+          {{event}}
+        </td>
+        <td>
+          {{gold_medals}}
+        </td>
+
+<td>
+<a href="/swimmingTeam/{{../swimmingTeam.id}}/deleteswimmer/{{id}}" class="ui icon button delswimmer">
+  <i class="ui trash icon"></i>
+</a>
+
+</td>
+
+
+      </tr>
+    {{/each}}
+  </tbody>
+</table>
+
+<p>
+  <span id="rating"> </span>
+</p>
+
+<button class="ui blue button" id = "rateit">
+  Rate it! <i class="star icon"></i>
+</button>
+
+{{/unless}}

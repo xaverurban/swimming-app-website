@@ -1,0 +1,91 @@
+{
+  "swimmingTeamCollection": [
+    {
+      "id": "15041e52-27cc-4adb-b1c3-a98d7edd99d2",
+      "title": "Test",
+      "country": "EEEE",
+      "swimmers": []
+    },
+    {
+      "id": "1f306cb5-342d-4cf4-839f-0a870fd107ae",
+      "title": "Yeeto",
+      "country": "TTTT",
+      "swimmers": []
+    },
+    {
+      "id": "9216fd54-2102-4583-a95d-388c266c26a0",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "title": "Swimming Team 1",
+      "country": "DD",
+      "swimmers": []
+    },
+    {
+      "id": "b1a19b84-4ea9-4a20-8e32-f516c6019acc",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "title": "Swimming Team 2",
+      "country": "EE",
+      "swimmers": []
+    },
+    {
+      "id": "1820b41e-28e9-459b-b8b5-315f28763f6f",
+      "userid": "2b6f0989-7b7f-4a38-ad26-aa06b922d751",
+      "title": "Margie 1",
+      "country": "EE",
+      "swimmers": []
+    },
+    {
+      "id": "fd5f0550-9679-438a-8a1d-fc662a96888d",
+      "userid": "2b6f0989-7b7f-4a38-ad26-aa06b922d751",
+      "title": "Marget test 2",
+      "country": "EE",
+      "swimmers": []
+    },
+    {
+      "id": "21ae7883-1b99-40c9-b31b-dd2fba11c5cd",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "title": "EDSD",
+      "country": "SASA",
+      "swimmers": []
+    },
+    {
+      "id": "1d7c65b2-9f9b-4ac7-8fc5-69ff30b1b0b3",
+      "userid": "1452d5b0-3daa-48db-8eaf-2af1cfafdab2",
+      "title": "Testing 1",
+      "country": "Testing ",
+      "picture": "http://res.cloudinary.com/dwooszeuw/image/upload/v1682855961/c12miob9f5wz7xhbnqcp.jpg",
+      "swimmers": []
+    },
+    {
+      "id": "6c15aa43-1745-4eeb-8008-f07e2758a331",
+      "userid": "ae48ad78-cdaf-46df-bfa8-ea5fa10f661f",
+      "title": "Testing ",
+      "country": "Testing",
+      "picture": "http://res.cloudinary.com/dwooszeuw/image/upload/v1682860372/rmoooke5nzenacmx0ui2.jpg",
+      "swimmers": []
+    },
+    {
+      "id": "297198e1-b5f0-4078-bc43-a0f28689e426",
+      "userid": "1452d5b0-3daa-48db-8eaf-2af1cfafdab2",
+      "title": "Testing 2",
+      "country": "Testing 2",
+      "picture": "http://res.cloudinary.com/dwooszeuw/image/upload/v1682861736/it81ov2lda2igply73cd.jpg",
+      "swimmers": []
+    },
+    {
+      "id": "9936a6f6-b9b2-4296-9721-8e9886af19d5",
+      "userid": "1452d5b0-3daa-48db-8eaf-2af1cfafdab2",
+      "title": "Testing",
+      "country": "Testing",
+      "picture": "http://res.cloudinary.com/dwooszeuw/image/upload/v1682862770/gi6zihhww6tcsfztkj1t.jpg",
+      "date": "2023-04-30T13:52:50.744Z",
+      "swimmers": [
+        {
+          "id": "04291377-b6b6-44b8-8af3-c93f4f34ee2b",
+          "name": "Test",
+          "event": "Test",
+          "gold_medals": "5"
+        }
+      ]
+    }
+  ]
+}

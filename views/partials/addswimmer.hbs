@@ -1,0 +1,21 @@
+<form class="ui stacked segment form" action="/swimmingTeam/{{swimmingTeam.id}}/addswimmer" method="POST">
+  <div class="two fields">
+    <div class="field">
+      <label>Name</label>
+      <input type="text" name="name" autofocus required title = "Please include a valid name"
+      placeholder="Name">
+    </div>
+    <div class="field">
+      <label>Event</label>
+      <input type="text" name="event" required title = "Please include a valid Event"
+      placeholder="Event"  >
+    </div>
+     <div class="field">
+      <label>Gold Medals</label>
+      <input type="text" name="gold_medals" autofocus required title = "Please include a valid Gold Medal"
+      placeholder="Gold Medal">
+    </div>
+
+  </div>
+  <button class="ui blue submit button">Add Swimmer</button>
+</form>

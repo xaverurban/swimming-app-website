@@ -1,0 +1,190 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  background-image: url('https://cdn.glitch.global/0e97b6d1-3b44-49de-85ef-7516f9a8b09e/swimming-pool.png?v=1679258006876');
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  font-family: 'Arial', sans-serif;
+}
+
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+#readmore {
+  display: none;
+}
+
+#welcomeuser {
+  display: none;
+}
+.ui.menu .active.item {
+  background: rgba(0, 0, 0, 0.08);
+  color: rgba(0, 0, 0, 0.95);
+  font-weight: normal;
+  box-shadow: none;
+}
+
+/* Dark theme for the navigation bar */
+nav.ui.menu {
+  background-color: #333;
+  color: #FFF;
+}
+
+nav.ui.menu .header.item a,
+nav.ui.menu a.item,
+nav.ui.menu .ui.dropdown .menu a.item {
+  color: #FFF;
+}
+
+nav.ui.menu .right.menu {
+  border-color: #CCC;
+}
+
+nav.ui.menu .ui.simple.dropdown.item .menu {
+  background-color: #333;
+}
+
+nav.ui.menu .ui.button.toggle {
+  background-color: transparent;
+  color: #FFF;
+}
+
+nav.ui.menu .ui.button.toggle i.icon {
+  color: #FFF;
+}
+
+nav.ui.menu .ui.button.toggle:hover {
+  background-color: #222;
+}
+
+/* Additional styling to improve readability */
+nav.ui.menu .ui.simple.dropdown.item:hover .menu {
+  display: block !important;
+}
+
+nav.ui.menu .ui.simple.dropdown.item:hover .menu a.item {
+  color: #DDD !important;
+}
+
+nav.ui.menu .ui.simple.dropdown.item .menu a.item:hover {
+  background-color: #444 !important;
+  color: #FFF !important;
+}
+
+
+
+
+    .main-container {
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 30px;
+      border-radius: 10px;
+      margin-top: 50px;
+    }
+
+    .buttons {
+      margin-top: 20px;
+    }
+
+    #readmore, #welcomeuser {
+      display: none;
+      margin-top: 20px;
+    }
+
+    .header-text {
+      text-align: center;
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+#introText {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+.ui.card {
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.custom-map {
+  width: 100%;
+  max-width: 600px;
+  height: 450px;
+  margin-top: 30px;
+  border: 0;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px; 
+
+}
+
+.image-container img {
+  max-width: 100%; 
+  max-height: 100%; 
+}
+
+#swimmers-header {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#video-gallery {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.gallery-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.video-container iframe {
+  margin: 10px;
+}
+.name{
+  padding-top:20px;
+  padding-right:5px;
+  line-height:20px;
+  font-weight:bold;
+  text-transform:capitalize;
+}
+
+.profilepic{
+  padding-top:15px;
+  padding-right:5px;
+  line-height:20px;
+  font-weight:bold;
+}
+
