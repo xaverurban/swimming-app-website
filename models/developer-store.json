@@ -1,0 +1,31 @@
+{"developers":
+  [
+    {
+      "name":"Cat",
+      "fullname":"Mr Cat",
+      "image":"https://cdn.glitch.global/0096e115-2e42-4225-96e4-52d7580a60f1/fatcat-1.gif?v=1675949884427",
+      "joined":2016,
+      "job":"Web Developer",
+      "city":"Boston",
+      "mates":35
+    },
+    {
+      "name":"Rock",
+      "fullname":"The Rock",
+      "image":"https://cdn.glitch.global/0096e115-2e42-4225-96e4-52d7580a60f1/the-jock-the-rock.gif?v=1675950025113",
+      "joined":2013,
+      "job":"Art Director",
+      "city":"New York",
+      "mates":22
+    },
+    {
+      "name":"Cat 2",
+      "fullname":"Mr Cat 2",
+      "image":"https://cdn.glitch.global/0096e115-2e42-4225-96e4-52d7580a60f1/Cat-Stare.gif?v=1675950160798",
+      "joined":2015,
+      "job":"Research Assistant",
+      "city":"New York",
+      "mates":26
+    }
+  ]
+}
